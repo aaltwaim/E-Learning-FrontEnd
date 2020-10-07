@@ -13,6 +13,8 @@ import { CourseComponent } from './category/course/course.component';
 import { SectionComponent } from './category/course/section/section.component';
 import { VideoComponent } from './category/course/section/video/video.component';
 import { StatusComponent } from './category/course/status/status.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { StatusComponent } from './category/course/status/status.component';
     CourseComponent,
     SectionComponent,
     VideoComponent,
-    StatusComponent
+    StatusComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
