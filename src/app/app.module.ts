@@ -15,6 +15,7 @@ import { VideoComponent } from './category/course/section/video/video.component'
 import { StatusComponent } from './category/course/status/status.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
