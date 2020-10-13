@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './user/login/login.component';
 import { RegistrationComponent } from './user/registration/registration.component';
+import { StudentComponent } from './user/student/student.component';
 
 const routes: Routes = [
   {
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path:'contact', component:ContactComponent
   },
+  {
+    path:'profile', component:StudentComponent
+  },
+
   {
     path:'**', component:HomeComponent
   },
